@@ -5,9 +5,11 @@ public class Addition {
         int num2 = 20;
 
         int sum = num1 + num2;
+        int difference = num2 - num1;
 
         System.out.println("First Number: " + num1);
         System.out.println("Second Number: " + num2);
         System.out.println("Sum = " + sum);
+        System.out.println("Difference = " + difference);
     }
 }
